@@ -1,0 +1,6 @@
+Flask
+pandas
+selenium
+beautifulsoup4
+schedule
+webdriver_manager
