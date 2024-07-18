@@ -13,8 +13,8 @@ const oneMonthAgo = unixTimestamp - (30 * 24 * 60 * 60); // Subtract 30 days wor
 
 const periods = {
   '1M': { start: oneMonthAgo, end: unixTimestamp }, // Last 1 month
-  '3M': { start: oneMonthAgo - (30 * 24 * 60 * 60), end: unixTimestamp }, // Last 3 months
-  '6M': { start: oneMonthAgo - (60 * 24 * 60 * 60), end: unixTimestamp }, // Last 6 months
+  '3M': { start: oneMonthAgo - (90 * 24 * 60 * 60), end: unixTimestamp }, // Last 3 months
+  '6M': { start: oneMonthAgo - (180 * 24 * 60 * 60), end: unixTimestamp }, // Last 6 months
   '1Y': { start: oneMonthAgo - (365 * 24 * 60 * 60), end: unixTimestamp },
 };
 

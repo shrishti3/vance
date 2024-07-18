@@ -20,7 +20,6 @@ def scrape_forex_data(from_currency, to_currency, period1, period2):
     url = f"https://finance.yahoo.com/quote/{from_currency}{to_currency}%3DX/history/?period1={period1}&period2={period2}"
     driver.get(url)
 
-    # Wait for the table to load
     wait = WebDriverWait(driver, 20)
     table = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "svelte-ewueuo")))
 
