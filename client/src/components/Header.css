@@ -1,0 +1,29 @@
+.header-main{
+    background-color:rgb(70,70,70);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    width: 30rem;
+    @media(max-width: 800px) {
+        width: 30rem;
+      }
+      @media(max-width: 551px) {
+        width: 20rem;
+        background-color: pink;
+      }
+}
+
+
+
+.header-conversion-txt{
+    color: white;
+    font-size: 1rem;
+}
+
+.header-date-txt{
+color: rgb(164, 164, 164);
+font-size: 0.8rem;
+}

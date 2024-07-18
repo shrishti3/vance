@@ -1,0 +1,10 @@
+.home-main{
+width: 200rem;  
+    @media(max-width: 800px) {
+        width: 30rem;
+      }
+      @media(max-width: 551px) {
+        width: 20rem;
+        background-color: pink;
+      }
+}

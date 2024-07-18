@@ -1,0 +1,31 @@
+.chart-graph{
+    background-color: rgb(34,34,34);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    width: 30rem;
+    @media(max-width: 800px) {
+        width: 30rem;
+      }
+      @media(max-width: 551px) {
+        width: 20rem;
+        background-color: pink;
+      }
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+.loader-txt{
+font-size: 1.2rem;
+color: rgb(78, 78, 78);
+font-weight: bold;
+}
